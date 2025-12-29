@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PickAMovie</string>
+    <string name="welcome_message">Not sure what movie to watch? Trust PickAMovie</string>
+    <string name="welcome_image_desc">Welcome Image</string>
+    <string name="discover_movies">Discover Movies</string>
+    <string name="view_favorites">View Favorites</string>
+
 </resources>

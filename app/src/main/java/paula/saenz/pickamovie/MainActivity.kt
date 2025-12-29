@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.image.setImageResource(R.drawable.pickamovie)
 
-        binding.botonDiscover.setOnClickListener {
+        binding.buttonDiscover.setOnClickListener {
             val intent = Intent(this, DiscoverMoviesActivity::class.java)
             startActivity(intent)
         }
 
-        binding.botonFavorites.setOnClickListener {
+        binding.buttonFavorites.setOnClickListener {
             val intent = Intent(this, FavoritesActivity::class.java)
             startActivity(intent)
         }
