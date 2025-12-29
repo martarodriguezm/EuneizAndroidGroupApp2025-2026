@@ -3,7 +3,7 @@
         <color name="white">#FFFFFF</color>
         <color name="black">#000000</color>
 
-        <!-- Colores personalizados -->
+        <!--Colores de los botones-->
         <color name="primaryButton">#FF6F61</color>
         <color name="primaryButtonText">#FFFFFF</color>
 

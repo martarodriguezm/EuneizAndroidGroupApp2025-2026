@@ -2,11 +2,10 @@ package paula.saenz.pickamovie
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import paula.saenz.pickamovie.databinding.ActivityMainBinding
-
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +17,17 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(
+                systemBars.left,
+                systemBars.top + 60,
+                systemBars.right,
+                systemBars.bottom
+            )
+            insets
+        }
+
         binding.textWelcome.text = "¡Bienvenido a PickAMovie!"
 
         binding.image.setImageResource(R.drawable.pickamovie)
@@ -26,7 +36,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DiscoverMoviesActivity::class.java)
             startActivity(intent)
         }
-
         binding.buttonFavorites.setOnClickListener {
             val intent = Intent(this, FavoritesActivity::class.java)
             startActivity(intent)

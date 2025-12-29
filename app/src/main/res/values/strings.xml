@@ -4,5 +4,8 @@
     <string name="welcome_image_desc">Welcome Image</string>
     <string name="discover_movies">Discover Movies</string>
     <string name="view_favorites">View Favorites</string>
+    <string name="list_of_movies">List Of Movies</string>
+    <string name="favorites">Favourites</string>
+
 
 </resources>
