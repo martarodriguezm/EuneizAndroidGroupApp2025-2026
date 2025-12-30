@@ -6,6 +6,6 @@
     <string name="view_favorites">View Favorites</string>
     <string name="list_of_movies">List Of Movies</string>
     <string name="favorites">Favorites</string>
-
+    <string name="select_genre">Select a movie genre</string>
 
 </resources>

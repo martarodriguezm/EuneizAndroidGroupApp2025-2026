@@ -10,11 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PickAMovie" >
+
         <activity
             android:name=".FavoritesActivity"
             android:exported="false" />
         <activity
-            android:name=".DiscoverMoviesActivity"
+            android:name=".GenresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MovieByGenreActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

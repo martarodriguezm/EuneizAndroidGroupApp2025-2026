@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         binding.image.setImageResource(R.drawable.pickamovie)
 
         binding.buttonDiscover.setOnClickListener {
-            val intent = Intent(this, DiscoverMoviesActivity::class.java)
+            val intent = Intent(this, GenresActivity::class.java)
             startActivity(intent)
         }
         binding.buttonFavorites.setOnClickListener {
