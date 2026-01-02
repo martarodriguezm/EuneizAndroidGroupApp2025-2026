@@ -4,10 +4,10 @@
         <color name="black">#000000</color>
 
         <!--Colores de los botones-->
-        <color name="primaryButton">#FF6F61</color>
+        <color name="primaryButton">#FF9800</color>
         <color name="primaryButtonText">#FFFFFF</color>
 
-        <color name="secondaryButton">#4A90E2</color>
+        <color name="secondaryButton">#185194</color>
         <color name="secondaryButtonText">#FFFFFF</color>
     </resources>
 

@@ -28,15 +28,16 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        binding.textWelcome.text = "¡Bienvenido a PickAMovie!"
+        binding.textWelcome.text = getString(R.string.welcome_message)
+        binding.btnDiscover.text = getString(R.string.discover_movies)
+        binding.btnFavorites.text = getString(R.string.view_favorites)
+        binding.imgMovie.setImageResource(R.drawable.pickamovie)
 
-        binding.image.setImageResource(R.drawable.pickamovie)
-
-        binding.buttonDiscover.setOnClickListener {
+        binding.btnDiscover.setOnClickListener {
             val intent = Intent(this, GenresActivity::class.java)
             startActivity(intent)
         }
-        binding.buttonFavorites.setOnClickListener {
+        binding.btnFavorites.setOnClickListener {
             val intent = Intent(this, FavoritesActivity::class.java)
             startActivity(intent)
         }
