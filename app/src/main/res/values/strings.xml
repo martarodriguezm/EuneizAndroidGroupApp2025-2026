@@ -1,11 +1,11 @@
 <resources>
+
     <string name="app_name">PickAMovie</string>
     <string name="welcome_message">Not sure what movie to watch? Trust PickAMovie</string>
     <string name="welcome_image_desc">Welcome Image</string>
     <string name="discover_movies">Discover Movies</string>
     <string name="view_favorites">View Favorites</string>
     <string name="list_of_movies">List Of Movies</string>
-    <string name="favorites">Favorites</string>
     <string name="select_genre">Select a movie genre</string>
 
     <string name="nav_genre">Genres</string>
@@ -17,6 +17,19 @@
     <string name="no_movies_for_genre">No movies available for this genre</string>
     <string name="error_fetch_movies">Error fetching movies</string>
     <string name="error_connection">Connection error: %1$s</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="error_loading_movie">Error loading movie</string>
+    <string name="error_loading_image">Error loading image</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+
+
+    <string name="label_description">Description: %1$s</string>
+    <string name="label_year">Year: %1$s</string>
+    <string name="label_genre">Genre: %1$s</string>
+    <string name="label_rating">Rating: %1$s</string>
+
 
 
 </resources>
