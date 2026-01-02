@@ -8,4 +8,15 @@
     <string name="favorites">Favorites</string>
     <string name="select_genre">Select a movie genre</string>
 
+    <string name="nav_genre">Genres</string>
+    <string name="title_choose_genre">Choose a genre</string>
+    <string name="btn_discover_movies">Discover movies</string>
+    <string name="toast_select_genre">Please select a genre first</string>
+    <string name="toast_genre_selected">Selected genre: %1$s</string>
+
+    <string name="no_movies_for_genre">No movies available for this genre</string>
+    <string name="error_fetch_movies">Error fetching movies</string>
+    <string name="error_connection">Connection error: %1$s</string>
+
+
 </resources>

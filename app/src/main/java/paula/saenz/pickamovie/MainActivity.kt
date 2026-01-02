@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import paula.saenz.pickamovie.Favs.FavoritesActivity
+import paula.saenz.pickamovie.GenreList.GenresActivity
 import paula.saenz.pickamovie.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
