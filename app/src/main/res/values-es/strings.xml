@@ -1,0 +1,33 @@
+
+<resources>
+
+    <string name="app_name">PickAMovie</string>
+    <string name="welcome_message">¿No sabes qué película ver? Confía en PickAMovie</string>
+    <string name="welcome_image_desc">Imagen de bienvenida</string>
+    <string name="discover_movies">Descubrir películas</string>
+    <string name="view_favorites">Ver favoritos</string>
+    <string name="list_of_movies">Lista de películas</string>
+    <string name="select_genre">Selecciona un género de película</string>
+
+    <string name="nav_genre">Géneros</string>
+    <string name="title_choose_genre">Elige un género</string>
+    <string name="btn_discover_movies">Descubrir películas</string>
+    <string name="toast_select_genre">Por favor, selecciona primero un género</string>
+    <string name="toast_genre_selected">Género seleccionado: %1$s</string>
+
+    <string name="no_movies_for_genre">No hay películas disponibles para este género</string>
+    <string name="error_fetch_movies">Error al obtener las películas</string>
+    <string name="error_connection">Error de conexión: %1$s</string>
+
+    <string name="favorites">Favoritos</string>
+    <string name="error_loading_movie">Error al cargar la película</string>
+    <string name="error_loading_image">Error al cargar la imagen</string>
+    <string name="added_to_favorites">Añadido a favoritos</string>
+    <string name="removed_from_favorites">Eliminado de favoritos</string>
+
+    <string name="label_description">Descripción: %1$s</string>
+    <string name="label_year">Año: %1$s</string>
+    <string name="label_genre">Género: %1$s</string>
+    <string name="label_rating">Valoración: %1$s</string>
+
+</resources>
